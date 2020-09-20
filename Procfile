@@ -1,1 +1,1 @@
-SENDGRID_APIKEY=$SENDGRID_APIKEY node ./bin/www
+node app.js
