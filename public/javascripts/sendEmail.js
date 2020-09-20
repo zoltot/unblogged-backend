@@ -3,7 +3,7 @@ require("dotenv").config();
 sgMail.setApiKey(process.env.SENDGRID_API_KEY);
 exports.sendMessage = async (email, firstName, lastName, company, message) => {
   const msg = {
-    to: "traynorthern@yahoo.com",
+    to: "support@unboggled.com",
     from: process.env.FROM,
     subject: "User has given you contact info",
     html: `<p>Email:<br>${email || ""}</p><p>Name:<br>${
